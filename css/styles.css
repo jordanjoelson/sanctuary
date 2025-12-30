@@ -1,0 +1,21 @@
+/* styles */
+
+@font-face {
+    font-family: 'Everyday';
+    src: url('../fonts/Everyday/Everyday.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Everyday', monospace;
+    font-size: 12px;
+}
+p {
+    text-align: center;
+    color: red;
+    font-family: 'Everyday', monospace;
+    font-size: 12px;
+}
