@@ -7,15 +7,80 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face{
+    font-family:'IBMPlexMono';
+    src: url('../fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 h1 {
     text-align: center;
-    color: red;
-    font-family: 'Everyday', monospace;
-    font-size: 12px;
+    color: black;
+    font-family: 'IBMPlexMono', monospace;
 }
+
 p {
     text-align: center;
-    color: red;
+    color: black;
+    font-family: 'IBMPlexMono', monospace;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
     font-family: 'Everyday', monospace;
-    font-size: 12px;
+    padding: 0;
+    justify-content: center;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 12px 12px;
+}
+
+ul li a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.viewport-container {
+    position: relative; 
+    width: 100%;
+}
+
+.viewport-border {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+name
+d.logs {}
+    
+disdisplay: dflex;
+pre.ascii-name {
+    font-family: monospace;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+.logs {
+    display: flex;
 }
