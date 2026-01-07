@@ -2,36 +2,46 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Jordan Joelson</title>
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
-    <body>
-        <div class="viewport-container">
-            <div class="viewport-border">
-                <pre class="ascii-name">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Joelson</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ascii-header">
+            <pre>
     ___  ________  ________  ________  ________  ________              ___  ________  _______   ___       ________  ________  ________
    |\  \|\   __  \|\   __  \|\   ___ \|\   __  \|\   ___  \           |\  \|\   __  \|\  ___ \ |\  \     |\   ____\|\   __  \|\   ___  \
    \ \  \ \  \|\  \ \  \|\  \ \  \_|\ \ \  \|\  \ \  \\ \  \          \ \  \ \  \|\  \ \ \ __/ \ \  \    \ \  \___|\ \  \|\  \ \  \\ \  \
  __ \ \  \ \  \\\  \ \   _  _\ \  \ \\ \ \   __  \ \  \\ \  \       __ \ \  \ \  \\\  \ \   _\ _\ \  \    \ \_____  \ \  \\\  \ \  \\ \  \
-|\  \\_\  \ \  \\\  \ \  \\  \\ \  \_\\ \ \  \ \  \ \  \\ \  \     |\  \\_\  \ \  \\\  \ \  \_/\ \ \  \____\|____|\  \ \  \\\  \ \  \\ \  \
+|\  \\_\  \ \  \\\  \ \  \\  \\ \  \_\\ \ \  \ \  \ \  \\ \  \     |\  \\_\  \ \  \\\  \ \  \/_/\\ \  \____\|____|\  \ \  \\\  \ \  \\ \  \
 \ \________\ \_______\ \__\\ _\\ \_______\ \__\ \__\ \__\\ \__\    \ \________\ \_______\ \_______\ \_______\_________\ \_______\ \__\\ \__\
  \|________|\|_______|\|__|\|__|\|_______|\|__|\|__|\|__| \|__|     \|________|\|_______|\|_______|\|_______|\|_______|\|_______|\|__| \|__|
+            </pre>
+        </div>
 
- <!--
-    ___  ________  ________  ________  ________  ________              ___  ________  _______   ___       ________  ________  ________
-   |\  \|\   __  \|\   __  \|\   ___ \|\   __  \|\   ___  \           |\  \|\   __  \|\  ___ \ |\  \     |\   ____\|\   __  \|\   ___  \
-   \ \  \ \  \|\  \ \  \|\  \ \  \_|\ \ \  \|\  \ \  \\ \  \          \ \  \ \  \|\  \ \   __/|\ \  \    \ \  \___|\ \  \|\  \ \  \\ \  \
- __ \ \  \ \  \\\  \ \   _  _\ \  \ \\ \ \   __  \ \  \\ \  \       __ \ \  \ \  \\\  \ \  \_|/_\ \  \    \ \_____  \ \  \\\  \ \  \\ \  \
-|\  \\_\  \ \  \\\  \ \  \\  \\ \  \_\\ \ \  \ \  \ \  \\ \  \     |\  \\_\  \ \  \\\  \ \  \_|\ \ \  \____\|____|\  \ \  \\\  \ \  \\ \  \
-\ \________\ \_______\ \__\\ _\\ \_______\ \__\ \__\ \__\\ \__\    \ \________\ \_______\ \_______\ \_______\_________\ \_______\ \__\\ \__\
- \|________|\|_______|\|__|\|__|\|_______|\|__|\|__|\|__| \|__|     \|________|\|_______|\|_______|\|_______|\|_______|\|_______|\|__| \|__|
--->
-                </pre>
+        <nav>
+            <a href="#" class="nav-link active" data-page="home">HOME</a>
+            <a href="#" class="nav-link" data-page="logs">LOGS</a>
+            <a href="#" class="nav-link" data-page="gallery">GALLERY</a>
+        </nav>
 
-                <pre>                                                                                                                                        
-                                                                                                                                                                
+        <div id="home" class="page active">
+            <div class="content-grid">
+                <div class="about-box box">
+                    <h1>ABOUT</h1>
+                    <p>I'm Jordan, a computer scientist</p>
+                    <p>In a world that demand is constant...</p>
+                </div>
+
+                <div class="quote-box box" id="quoteBoxTop">
+                    <p id="quoteTextTop">"simplicity is the ultimate sophistication"</p>
+                </div>
+
+                <div class="portrait-box">
+                    <pre>
                                                 -                                                                                                               
                                                  .                                                                                                              
                                                                                                                                                                 
@@ -105,29 +115,155 @@
                                                                                     =                      -                                                    
                                                                                     :                                                                           
                                                                                     .                                                                           
-                </pre>
-                    
-                <div class="about-me">
-                    <h1>Hello</h1>
-                    <p style ="color:black;" title="info about this para">I'm Jordan, a computer scientist</p>
-                    <p>In a world that demand is constant, ...</p>
-                </div>
-                <div class="logs">
-                    <h1>My logs</h1>
-                    <p style ="color:black;" title="info about this para">[*] first log 1.6.26</p>
-                </div>
-                <div class="ascii-art">
-                    <h1>Hello</h1>
-                    <p style ="color:black;" title="info about this para">Im art</p>
-                </div>
-                <div class="footer">
-                    <a href="https://x.com/jordan_joelson" style ="color:black;">Follow me on X</a>
-                    <p>Let's chat</p>
+                    </pre>
                 </div>
 
+                <div class="logs-box box">
+                    <h1>LOGS</h1>
+                    <div class="log-entry">
+                        <div class="log-date">[*] 1.6.26</div>
+                        <div class="log-title">first thoughts on building in public</div>
+                        <div class="log-content">starting this journey of documenting what i learn. the process matters more than perfection.</div>
+                    </div>
+                    <div class="log-entry">
+                        <div class="log-date">[*] 1.5.26</div>
+                        <div class="log-title">on simplicity</div>
+                        <div class="log-content">the best interfaces disappear. they let you think about the work, not the tool.</div>
+                    </div>
+                </div>
+
+                <div class="home-gallery-box box">
+                    <h1>gallery</h1>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <div>
+                                <h3>project 1 HOLO BACKGROUND</h3>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div>
+                                <h3>project 2</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </body>
+        <div id="logs" class="page">
+            <h2></h2>
+            <div class="log-entry">
+                <div class="log-date">[*] 1.6.26</div>
+                <div class="log-title">first thoughts on building in public</div>
+                <div class="log-content">
+                    <p>starting this journey of documenting what i learn. the process matters more than perfection.</p>
+                    <p>there's something powerful about working in the open—it forces clarity, encourages consistency, and creates a trail of breadcrumbs for others (and future me) to follow.</p>
+                    <p>the goal isn't to have all the answers, but to ask better questions along the way.</p>
+                </div>
+            </div>
+            <div></div>
+        </div>
 
+        <div id="gallery" class="page">
+            <h2>gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div>
+                        <h3>neural network visualizer</h3>
+                        <p>interactive tool for understanding deep learning architectures</p>
+                    </div>
+                    <div class="tags">code, ml, visualization</div>
+                </div>
+                <div class="gallery-item">
+                    <div>
+                        <h3>ascii portrait generator</h3>
+                        <p>converts images to ascii art with customizable character sets</p>
+                    </div>
+                    <div class="tags">code, art, cli</div>
+                </div>
+                <div class="gallery-item">
+                    <div>
+                        <h3>minimalist chess ui</h3>
+                        <p>clean interface for playing chess with no distractions</p>
+                    </div>
+                    <div class="tags">code, design, game</div>
+                </div>
+                <div class="gallery-item">
+                    <div>
+                        <h3>computational poetry</h3>
+                        <p>generative text experiments using markov chains</p>
+                    </div>
+                    <div class="tags">art, code, nlp</div>
+                </div>
+                <div class="gallery-item">
+                    <div>
+                        <h3>terminal art series</h3>
+                        <p>collection of ascii landscapes and portraits</p>
+                    </div>
+                    <div class="tags">art, ascii</div>
+                </div>
+                <div class="gallery-item">
+                    <div>
+                        <h3>data sonification</h3>
+                        <p>turning datasets into sound using web audio api</p>
+                    </div>
+                    <div class="tags">code, audio, data</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://x.com/jordan_joelson">follow me on x</a>
+            <p>let's chat</p>
+        </div>
+    </div>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-link');
+        const pages = document.querySelectorAll('.page');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                const targetPage = link.getAttribute('data-page');
+                
+                navLinks.forEach(l => l.classList.remove('active'));
+                pages.forEach(p => p.classList.remove('active'));
+                
+                link.classList.add('active');
+                document.getElementById(targetPage).classList.add('active');
+            });
+        });
+
+        // Rotating quotes
+        const quotes = [
+            '"the computer is a bicycle for the mind" — steve jobs',
+            '"make it work, make it right, make it fast" — kent beck',
+            '"simplicity is prerequisite for reliability" — dijkstra',
+            '"programs must be written for people to read" — abelson',
+            '"the best way to predict the future is to invent it" — alan kay',
+            '"talk is cheap. show me the code" — linus torvalds',
+            '"first, solve the problem. then, write the code" — john johnson',
+            '"code is like humor. when you have to explain it, it\'s bad"',
+            '"perfection is achieved not when there is nothing more to add, but when there is nothing left to take away"',
+            '"the function of good software is to make the complex appear simple" — grady booch'
+        ];
+
+        let currentQuoteIndex = 0;
+        const quoteTextTop = document.getElementById('quoteTextTop');
+        const quoteBoxTop = document.getElementById('quoteBoxTop');
+
+        function rotateQuote() {
+            currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+            quoteTextTop.textContent = quotes[currentQuoteIndex];
+        }
+
+        // Change quote on click
+        quoteBoxTop.addEventListener('click', rotateQuote);
+
+        // Auto-rotate every 10 seconds
+        setInterval(rotateQuote, 10000);
+    </script>
+</body>
 </html>
