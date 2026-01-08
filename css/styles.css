@@ -159,7 +159,7 @@ p {
 
 .log-date {
     font-size: 11px;
-    color: #8b7355;
+    color: #df6552;
     margin-bottom: 5px;
 }
 
@@ -184,7 +184,7 @@ p {
 
 .gallery-item {
     border: 1px solid black;
-    padding: 20px;
+    padding: 5px;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -194,20 +194,20 @@ p {
 .gallery-item h3 {
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 10px;
-    text-transform: lowercase;
-    color: #1a1a1a;
+    color: #fffef7;
+    background-color: #1a1a1a;
+    padding-left: 2px;
 }
 
 .gallery-item p {
+    margin-top: 20px;
     font-size: 12px;
-    color: #5a5a5a;
-    margin-bottom: 15px;
+    color: #1a1a1a;
 }
 
 .gallery-item .tags {
-    font-size: 11px;
-    color: #8b7355;
+    font-size: 12px;
+    color: #df6552;
 }
 
 .quote-box {
@@ -232,7 +232,7 @@ p {
 
 .home-gallery-box .gallery-item {
     min-height: 80px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .home-gallery-box .gallery-item h3 {
