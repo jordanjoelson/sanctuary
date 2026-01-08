@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan Joelson</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -31,9 +31,9 @@
         <div id="home" class="page active">
             <div class="content-grid">
                 <div class="about-box box">
-                    <h1>ABOUT</h1>
+                    <a href="#" class="nav-link" data-page="home"><h1>ABOUT</h1></a>
                     <p>I'm Jordan, a computer scientist</p>
-                    <p>In a world that demand is constant...</p>
+                    <p>...</p>
                 </div>
 
                 <div class="quote-box box" id="quoteBoxTop">
@@ -119,41 +119,50 @@
                 </div>
 
                 <div class="logs-box box">
-                    <h1>LOGS</h1>
+                    <a href="#" class="nav-link" data-page="logs"><h1>LOGS</h1></a>
                     <div class="log-entry">
-                        <div class="log-date">[*] 1.6.26</div>
-                        <div class="log-title">first thoughts on building in public</div>
-                        <div class="log-content">starting this journey of documenting what i learn. the process matters more than perfection.</div>
+                        <a href="#" class="nav-link logs-link" data-page="log-1">
+                        <div class="log-date">[*] 1.6.26 — Posted: 2026-01-07, Edited: 2026-01-08</div>
+                        <div class="log-title">FIRST ENTRY</div>
+                        <div class="log-content">www</div>
+                        </a>
                     </div>
-                    <!-- <div class="log-entry">
-                        <div class="log-date">[*] 1.5.26</div>
-                        <div class="log-title">on simplicity</div>
-                        <div class="log-content">the best interfaces disappear. they let you think about the work, not the tool.</div>
-                    </div> -->
+                    
+                    <div class="log-entry">
+                        <div class="log-date">[*] TBD</div>
+                        <div class="log-title">Coming soon...</div>
+                        <div class="log-content"></div>
+                    </div>
                 </div>
 
+                <!-- Homepage galley section -->
                 <div class="home-gallery-box box">
-                    <h1>GALLERY</h1>
+                    <a href="#" class="nav-link" data-page="gallery"><h1>GALLERY</h1></a>
                     <div class="gallery-grid">
                         <div class="gallery-item">
                             <div>
-                                <img src="../assets/holo-texture1.jpg" alt="holographic image" width="100%" height="auto">
+                                <a href="#" class="nav-link gallery-link" data-page="gallery-1">
+                                <img src="assets/holo-texture1.jpg" alt="holographic image" width="100%" height="auto">
                                 <h3>
-                                    Hello
+                                    Uploading
                                 </h3>
+                                </a>
                             </div>
                         </div>
-                        <!-- <div class="gallery-item">
+                        <div class="gallery-item">
                             <div>
-                                <h3>project 2</h3>
+                                <img src="assets/holo-texture2.jpg" alt="holographic image" width="100%" height="auto">
+                                <h3>soon...</h3>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- logs preview -->
         <div id="logs" class="page">
+            <a href="#" class="nav-link" data-page="log-1" class="logs-link">
             <h2></h2>
             <div class="log-entry">
                 <div class="log-date">[*] 1.6.26</div>
@@ -165,24 +174,46 @@
             <div></div>
         </div>
 
+        <!-- Write logs here -->
+        <div id="log-1" class="page">
+            <div class="log-date">[*] Posted: 1.6.26</div>
+            <div class="log-date">[*] Edited: 1.6.26</div>
+            <div class="log-title">FIRST ENTRY</div>
+            <div class="log-content">
+                <p>Starting this journey of documenting what i learn. <br> The process matters more than perfection.</p>
+            </div>
+        </div>
+
+        <!-- Gallery preview -->
         <div id="gallery" class="page">
-            <h2>GALLERY</h2>
+            <a href="#" class="nav-link" data-page="gallery"><h2>GALLERY</h2></a>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div>
-                        <img src="../assets/holo-texture1.jpg" alt="holographic image" width="100%" height="auto">
-                        <h3>neural network</h3>
-                        <p>very cool tool</p>
+                        <a href="#" class="nav-link gallery-link" data-page="gallery-1">
+                        <img src="assets/holo-texture1.jpg" alt="holographic image" width="100%" height="auto">
+                        <h3>Pending</h3>
+                        <p>Adding my projects soon :p</p>
+                        
                     </div>
-                    <div class="tags">code, ml, visualization</div>
+                    <div class="tags">code, more code</div>
+                    </a>
                 </div>
-                <!-- <div class="gallery-item">
+                <div class="gallery-item">
                     <div>
-                        <h3>ascii portrait generator</h3>
-                        <p>converts images to ascii art with customizable character sets</p>
+                        <img src="assets/holo-texture2.jpg" alt="holographic image" width="100%" height="auto">
+                        <h3>Also pending</h3>
+                        <p>Nothing to see here</p>
                     </div>
                     <div class="tags">code, art, cli</div>
-                </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Write gallery content here -->
+        <div id="gallery-1" class="page">
+            <div class="log-title">FIRST ENTRY</div>
+                <p>Ta-dah</p>
             </div>
         </div>
 

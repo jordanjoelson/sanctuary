@@ -131,6 +131,8 @@ h1 {
     font-weight: 400;
     margin-bottom: 15px;
     color: #1a1a1a;
+    text-decoration-line: underline;
+    text-decoration-color: #1a1a1a;
 }
 
 h2 {
@@ -275,4 +277,7 @@ p {
 .footer p {
     margin-top: 10px;
     font-size: 12px;
+}
+a {
+    text-decoration: none;   
 }
