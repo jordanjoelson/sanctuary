@@ -41,7 +41,29 @@
                     </ul>
                     <br>
                     <p>If you'd like to learn more about me, check out my logs.</p>
-                    <p>Feel free to reach out: <a href="mailto:jordan@jordanjoelson.com" class="href">jordan@jordanjoelson.com</a></p>
+                    <p>
+                        Best way to reach me:<br>
+                        <span id="email-display" style="cursor: pointer;">
+                            jordan [at] jordanjoelson [dot] com
+                        </span>
+                        <span id="copied-msg" style="margin-left:10px;"></span>
+                    </p>
+
+                    <script>
+                        const user = "jordan";
+                        const domain = "jordanjoelson.com";
+                        const email = user + "@" + domain;
+
+                        const display = document.getElementById("email-display");
+                        const message = document.getElementById("copied-msg");
+
+                        display.addEventListener("click", () => {
+                            navigator.clipboard.writeText(email).then(() => {
+                            message.textContent = "Copied!";
+                            setTimeout(() => message.textContent = "", 2000);
+                            });
+                        });
+                    </script>
                     <!--<div class="portrait-box">
                         <pre>
                                       :.        .                                                  
@@ -245,6 +267,19 @@
 
         <!-- logs preview -->
         <div id="logs" class="page">
+            <!-- log 4 -->
+            <a href="#" class="nav-link" data-page="log-4" class="logs-link">
+            <h2></h2>
+            <div class="log-entry">
+                <div class="log-date"><strong>[*]</strong> 2.23.26</div>
+                <div class="log-title">Working hard or hardly working?</div>
+                <div class="log-content">
+                    <p>Majority of Febuary, various challenges, and new ideas.</p>
+                </div>
+            </a>
+            </div>
+            <div></div>
+
             <!-- log 3 -->
             <a href="#" class="nav-link" data-page="log-3" class="logs-link">
             <h2></h2>
@@ -417,6 +452,48 @@
             <img src="assets/bye.gif" alt="bye" width="250" height="250">
             </div>
         </div>
+
+        <!-- log 4 -->
+        <div id="log-4" class="page">
+            <div class="log-date"><strong>[*]</strong> Posted: 2.23.26</div>
+            <!--<div class="log-date"><strong>[*]</strong> Edited: 1.30.26</div>-->
+            <div class="log-title">Working hard or hardly working?</div>
+            <div class="log-content">
+            <p>Yo</p>
+            <p>It has proven difficult to stay on top of these. It's been a busy start to the year, and it's weird to think how much actually happens over a few weeks, even though a lot of days seem insignificant. It seems that it is very easy to overlook all that is actually going on and compounding. Revealing why it is easy to lose sight of the short-term, but every second matters.</p>
+            <h2>Multi-tasking armageddon</h2>
+            <p>Since last time I joined HackUTD's marketing team, where I am responsible for the UI/UX designs of the various websites that we put together. HackUTD is UTD's flagship hackathon, and one of the largest university hackathons in North America. With this i've added to my heap of commitments for the semester, but I am excited about the work, and have met a bunch of cool people.</p>
+            <p>Moreover, i've been having my first few exams, and have had a pretty constant flow of homework.</p>
+            <p>Lastly, I've been having unusual desires to spend money on a growing wishlist. I find this concerning. Need to splurge.</p>
+            <h2>30 day cold plunge</h2>  
+            <p>I have officially completed my 30 day cold plunge challenge🎉. It went by so fast, and has definetly been one for the books. The whole experience has had ups and downs. I'll start with the downs. First, since it's been around 70 degrees farenheit for the past 2 and a half weeks i've been having to buy ice leading to devasation in my reserve. Second, my organization throughout the challenge was not great, I had been coming up with the speaking points right before which produced good ideas, but cost a lot of time and spiked cortisol. Also for the editing, I used capcut on my phone, and to say the least I don't plan and using it ever again. The amount of delays I ran into from random bugs and templates being lost ridiculous. I'm moving to Davinci on my laptop for the future. Last and certainly the worst, is just having Instagram on your phone. Quality of life drops, screen-time spikes, and your IQ must be affected. Best phone advice I have is to delete social media, too chaotic, more of a distraction than anything else, and the value you do get from it is < the doom and despair. This is also because I've been back on my iPhone. I was previously using a dumb phone (AGM 9 peep photo), I will write more about it seperately. I miss it and need to go back even with its aggravating limitations.</p>
+            <img src="assets/cortisol.png" alt="cortisol spike" width="250" height="250">
+            <img src="assets/agm-m9.webp" alt="cortisol spike" width="250" height="250">
+            <p>On the bright side, this was a major step out of my comfort zone which I am extremely grateful for taking. It has challenged me, and helped me feel more confident in myself. Not sure what else to add but I would say the pros > cons in the end and I do believe this was worth it.</p>
+            <p>Despite my dislike for Social Media, I might consider doing another challenge. I will have to figure out a better pipeline though.</p>
+            <p>See the finale <a href="https://www.instagram.com/jordanjoelson/">@jordanjoelson</a> </p>
+            <img src="assets/insta-profile.jpg" alt="ice bath pic" width="250" height=auto>
+            <br>
+            <h2>Fun</h2>
+            <p>On the 15th I went to Nexo Dallas Open with my Dad, which was an unexpected but fun outting. We watched the finals between the two best players in the US, Ben Shelton, and Taylor Fritz. </p>
+            <img src="assets/dad-and-i.jpeg" alt="pic of us at the game" width="250" height=auto>
+            <img src="assets/my-serve.jpeg" alt="me serving a tennis ball" width="250" height=auto>
+            <p>During one of the evenings while I was on campus, I got to check out the climbling club. It was fun meeting other students there, and also climbing some well-set routes.</p>
+            <p>I've been looking to fill my room with posters. So far I've put up a periodic table and several calculus formula sheets to try and engrain them in my brain. It's pretty shabby right now, and I plan on keeping it centered on education. Although, we will see how it transforms over time.</p>
+            <p>I've also been seeing videos on "cognitive yoga" which is a new term to me. It's basically exercises that boost your cognitive functions. This is right up my alley, as I already try to use my non-dominant hand for many tasks throughout the day. Some examples are cooking, eating, brushing my teeth, and using my phone. However the term encompasses all kinds of attention, visualization, and breathing techniques/exercises.</p>
+            <h2>Goals</h2>
+            <ul class="custom-bullets">
+                <li>Need to start working on trying something new everyday.</li>
+                <li>More topic focused logs alongside my general ones.</li>
+                <br>
+            </ul>
+            <h2>Conclusion</h2>
+            <p>I am running The Cowtown Marathon this upcoming Sunday. Let's just say I didn't exactly follow the training plan. One of my goals for 2026 as per my first log was to run a sub 4hr marathon. Don't want to speak negatively, but that won't be easy for this one. </p>
+            <p>"Excellence withers without an adversary. - Seneca"</p>
+            <p>Cya</p>
+            <img src="assets/bye2.gif" alt="bye" width=auto height="200">
+            </div>
+        </div>
         
 
         <!-- Gallery preview -->
@@ -454,7 +531,7 @@
                         <p></p>
                         
                     </div>
-                    <div class="tags">Research, lstm</div>
+                    <div class="tags">Research, transformer</div>
                     </a>
                 </div>
                 <div class="gallery-item">
